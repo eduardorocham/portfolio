@@ -1,7 +1,7 @@
 import './header.css';
 
-const linkedinIcon = require("../assets/images/linkedin_icon.png") as string;
-const gitHubIcon = require("../assets/images/github_icon.png") as string;
+const linkedinIcon = require("../../assets/images/linkedin_icon.png") as string;
+const gitHubIcon = require("../../assets/images/github_icon.png") as string;
 
 const Header = () => {
     return (

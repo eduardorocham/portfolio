@@ -1,27 +1,21 @@
 import React from 'react';
 import './App.css';
 
-import Header from './components/header';
-
-const avatar = require("./assets/images/avatar.png") as string;
+import { Container } from './components/container';
+import Header from './components/Header/header';
+import WelcomeArea from './components/WelcomeArea/welcome-area';
+import SkillsArea from './components/SkillsArea/skills-area';
 
 function App() {
   return (
     <div className="App">
       <div className='welcome-area'>
-        <div className='container'>
+        <Container>
           <Header />
-          <div className='welcome-area--perfil'>
-            <div className='welcome-area--avatar'>
-              <img src={avatar} alt='avatar'/>
-            </div>
-            <h2>Hi! I'm Eduardo <br /> Web Developer</h2>
-            <div className='welcome-div'>
-              Welcome to my Portfolio
-            </div>
-          </div>
-        </div>
+          <WelcomeArea />
+        </Container>
       </div>
+      <SkillsArea />
     </div>
   );
 }
