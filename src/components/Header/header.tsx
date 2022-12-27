@@ -6,7 +6,9 @@ const gitHubIcon = require("../../assets/images/github_icon.png") as string;
 const Header = () => {
     return (
         <header>
-            <div className="logo">LOGO</div>
+            <div className="logo">
+                <span>MY</span>PORTFOLIO
+            </div>
             <nav>
                 <ul>
                     <li>Home</li>

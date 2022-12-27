@@ -5,6 +5,7 @@ import { Container } from './components/container';
 import Header from './components/Header/header';
 import WelcomeArea from './components/WelcomeArea/welcome-area';
 import SkillsArea from './components/SkillsArea/skills-area';
+import ProjectArea from './components/ProjectsArea/project-area';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </Container>
       </div>
       <SkillsArea />
+      <ProjectArea />
     </div>
   );
 }

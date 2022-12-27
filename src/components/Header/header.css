@@ -8,6 +8,14 @@ header {
     padding-top: 2rem;
 }
 
+.logo {
+    font-size: 1.8rem;
+}
+
+.logo span {
+    color: #fcf258;
+}
+
 li:hover {
     color: #bcbcbc;
     cursor: pointer;
