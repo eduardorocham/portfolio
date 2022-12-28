@@ -15,12 +15,24 @@ const ProjectArea = () => {
                 <div className='projects-area-content'>
                     <h1>Projects</h1>
                     <div className='projects'>
-                        <img src={EcommerceImage} alt='e-commerce-image'/>
-                        <img src={StarWarsImage} alt='star-wars-image' />
-                        <img src={PetshopImage} alt='petshop-image' />
-                        <img src={UrnaImage} alt='urna-image' />
-                        <img src={MemoryGameImage} alt='memory-game-imc' />
-                        <img src={CalcImcImage} alt='calc-imc-image' />
+                        <a href='https://github.com/eduardorocham/food-ecommerce' target='_blank'>
+                            <img src={EcommerceImage} alt='e-commerce-image'/>
+                        </a>
+                        <a href='https://github.com/eduardorocham/star-wars-app' target='_blank'>
+                            <img src={StarWarsImage} alt='star-wars-image' />
+                        </a>
+                        <a href='https://github.com/eduardorocham/petshop' target='_blank'>
+                            <img src={PetshopImage} alt='petshop-image' />
+                        </a>
+                        <a href='https://github.com/eduardorocham/urna' target='_blank'>
+                            <img src={UrnaImage} alt='urna-image' />
+                        </a>
+                        <a href='https://github.com/eduardorocham/memory-game' target='_blank'>
+                            <img src={MemoryGameImage} alt='memory-game-imc' />
+                        </a>
+                        <a href='https://github.com/eduardorocham/react_calc_imc' target='_blank'>
+                            <img src={CalcImcImage} alt='calc-imc-image' />
+                        </a>
                     </div>
                 </div>
             </Container>

@@ -6,6 +6,8 @@ import Header from './components/Header/header';
 import WelcomeArea from './components/WelcomeArea/welcome-area';
 import SkillsArea from './components/SkillsArea/skills-area';
 import ProjectArea from './components/ProjectsArea/project-area';
+import ContactArea from './components/ContactArea/contact-area';
+import Footer from './components/Footer/footer';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       </div>
       <SkillsArea />
       <ProjectArea />
+      <ContactArea />
+      <Footer />
     </div>
   );
 }

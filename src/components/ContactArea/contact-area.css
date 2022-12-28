@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+.contact-area {
+    background: linear-gradient(to right,#000, #2D2244, #4B2944, #3C2333);
+}
+
+.contact-area-content {
+    display: flex;
+}
+
+.contact-area-left, .contact-area-right {
+    flex: 1;
+}
+
+.contact-area-left h1 {
+    color: #FFF;
+    margin-top: 5rem;
+    font-size: 4rem;
+}
+
+form {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+fieldset {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    border: 0;
+}
+
+textarea {
+    resize: none;
+    height: 15rem;
+}
+
+textarea::placeholder {
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea, #name, #email, #subject, #message {
+    outline: 0;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    border: 0;
+    width: 100%;
+}
+
+textarea, #subject, #message {
+    margin-top: 1.5rem;
+}
+
+input[type='submit'] {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #999;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type='submit']:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.contact-area-right img {
+    width: 100%;
+}
