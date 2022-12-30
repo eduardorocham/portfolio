@@ -1,8 +1,25 @@
+@keyframes blinkCursor {
+    from {
+        border-right-color: #FFF;
+    } to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    } to {
+        width: 55.1rem;
+    }
+}
+
 .welcome-area--perfil {
     display: flex;
+    height: calc(100vh - 5.5rem);
     flex-direction: column;
     align-items: center;
-    padding-top: 8rem;
+    justify-content: center;
   }
   
 .welcome-area--avatar {
@@ -19,9 +36,16 @@
 }
   
 .welcome-area--perfil h2 {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #FFF;
     margin-top: 2rem;
+    border-right: 2px solid #FFF;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-animation {
+    animation: blinkCursor 1s steps(50) infinite normal, typing 4s steps(50) 1s normal;
 }
   
 .welcome-div {
