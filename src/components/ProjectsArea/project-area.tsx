@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './project-area.css';
 import { Container } from "../container";
 
@@ -9,13 +10,18 @@ const MemoryGameImage = require("../../assets/images/memory-game-project.png") a
 const CalcImcImage = require("../../assets/images/calc-imc-project.png") as string;
 
 const ProjectArea = () => {
+    const [showBanner, setShowBanner] = useState(false);
+
     return (
         <div className="projects-area">
             <Container>
                 <div className='projects-area-content'>
                     <h1>Projects</h1>
-                    <div className='projects'>
+                    <div className='projects' >
                         <a href='https://github.com/eduardorocham/food-ecommerce' target='_blank'>
+                            <div className='project-banner'>
+                                ...
+                            </div>
                             <img src={EcommerceImage} alt='e-commerce-image'/>
                         </a>
                         <a href='https://github.com/eduardorocham/star-wars-app' target='_blank'>

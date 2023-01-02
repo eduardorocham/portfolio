@@ -4,7 +4,11 @@ import { Container } from '../container';
 const linkedinIcon = require("../../assets/images/linkedin_icon.png") as string;
 const gitHubIcon = require("../../assets/images/github_icon.png") as string;
 
-const Header = () => {
+type Props = {
+    action: boolean
+};
+
+const Header = ({action} : Props) => {
     const scrollHome = () => {
         window.scrollTo(0, 0);
     };
@@ -18,7 +22,7 @@ const Header = () => {
     };
 
     return (
-        <header>
+        <header className={action ? 'color' : ''}>
             <Container>
                 <div className='header-content'>
                     <div className="logo">

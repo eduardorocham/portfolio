@@ -2,6 +2,11 @@ header {
     background-color: transparent;
     position: fixed;
     width: 100%;
+    transition: ease all 0.2s;
+}
+
+.color {
+    background-color: #242424;
 }
 
 .header-content {
