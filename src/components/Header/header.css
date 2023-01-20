@@ -60,3 +60,9 @@ ul {
     height: 100%;
     object-fit: cover;
 }
+
+@media(max-width: 425px) {
+    nav {
+        display: none;
+    }
+}

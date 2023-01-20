@@ -57,3 +57,17 @@
     border: 1px solid #FFF;
     margin-top: 2rem;
 }
+
+@media (max-width: 425px) {
+
+    .welcome-area--perfil h2 {
+        white-space: pre-wrap;
+        border-right: none;
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    .typing-animation {
+        animation: none;
+    }
+}

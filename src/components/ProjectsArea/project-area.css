@@ -22,27 +22,29 @@
     gap: 4rem;
 }
 
-.projects a {
-    position: relative;
-}
-
-.project-banner {
-    background-color: #FFF;
-    position: absolute;
-    z-index: 999;
-    width: 100%;
-    height: 100%;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    border-radius: 1rem;
-}
-
 .projects img {
     width: 100%;
     height: 20rem;
     border-radius: 1rem;
     cursor: pointer;
     object-fit: cover;
+}
+
+@media(max-width: 425px) {
+    .projects-area-content h1 {
+        margin-bottom: 2rem;
+    }
+    .projects-area-content {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .projects {
+        display: block;
+    }
+
+    .projects a {
+        display: block;
+        margin-bottom: 1.5rem;
+    }
 }

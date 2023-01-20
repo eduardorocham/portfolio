@@ -49,3 +49,24 @@
     color: #FFF;
     font-size: 2rem;
 }
+
+@media(max-width: 425px) {
+    .skills-area {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .skills-area--banner p {
+        text-align: center;
+    }
+
+    .technologies {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .technology img {
+        width: 10rem;
+        height: 10rem;
+    }
+}

@@ -4,7 +4,7 @@ import { Container } from "../container";
 
 const EcommerceImage = require("../../assets/images/e-commerce-project.png") as string;
 const StarWarsImage = require("../../assets/images/star-wars-project.png") as string;
-const PetshopImage = require("../../assets/images/petshop-project.png") as string;
+const CrudImage = require("../../assets/images/crud-project.png") as string;
 const UrnaImage = require("../../assets/images/urna-eletronica-project.png") as string;
 const MemoryGameImage = require("../../assets/images/memory-game-project.png") as string;
 const CalcImcImage = require("../../assets/images/calc-imc-project.png") as string;
@@ -19,16 +19,13 @@ const ProjectArea = () => {
                     <h1>Projects</h1>
                     <div className='projects' >
                         <a href='https://github.com/eduardorocham/food-ecommerce' target='_blank'>
-                            <div className='project-banner'>
-                                ...
-                            </div>
                             <img src={EcommerceImage} alt='e-commerce-image'/>
                         </a>
                         <a href='https://github.com/eduardorocham/star-wars-app' target='_blank'>
                             <img src={StarWarsImage} alt='star-wars-image' />
                         </a>
-                        <a href='https://github.com/eduardorocham/petshop' target='_blank'>
-                            <img src={PetshopImage} alt='petshop-image' />
+                        <a href='https://github.com/eduardorocham/desafio-sharenergy-2023-01/tree/jose-eduardo-rocha-mesquita' target='_blank'>
+                            <img src={CrudImage} alt='crud-image' />
                         </a>
                         <a href='https://github.com/eduardorocham/urna' target='_blank'>
                             <img src={UrnaImage} alt='urna-image' />
